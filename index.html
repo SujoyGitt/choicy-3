@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choicy home-3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <!-- scroll top -->
+    <a href="#home" class="scroll-top d-block">
+      <i class="fa-solid fa-arrow-up-long"></i>
+    </a>
+    <!-- scroll top end-->
+
+    <header class="">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center py-3"
+      >
+        <a href="" class="logo">
+          <img src="assets/image/logo.webp" alt="" />
+        </a>
+        <nav class="align-items-center gap-5 d-flex">
+          <ul class="pe-0 d-none d-lg-flex gap-5 mb-0 align-items-center">
+            <li class="dropdown">
+              <a href="" class="dropbtn"
+                >Home <span><i class="fa-solid fa-caret-down"></i></span
+              ></a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li>
+              <a href=""
+                >Services <span><i class="fa-solid fa-caret-down"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                >Pages <span><i class="fa-solid fa-caret-down"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="">Blog </a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+
+          <div class="bargar-menu d-block d-lg-none">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+        </nav>
+
+        <div class="search d-none d-lg-flex align-items-center gap-3">
+          <div class="d-flex justify-content-between align-items-center gap-3">
+            <div class="icon-left"><i class="fa-solid fa-phone-flip"></i></div>
+            <div class="icon-right">
+              <p>Call Us Now</p>
+              <a href="tel:">+193-940-9845</a>
+            </div>
+          </div>
+          <a href="" class="headerbtn">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="side-menu p-5" id="home">
+      <div class="bg">
+        <div class="span bg1"></div>
+        <div class="span bg2"></div>
+        <div class="span bg3"></div>
+      </div>
+      <div class="menu-header d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <img src="assets/image/logo-white.webp" alt="" />
+        </div>
+        <div class="close"><i class="fa-solid fa-xmark"></i></div>
+      </div>
+      <form class="search d-flex gap-3 col-12 col-md-8 col-lg-5 mt-5 justify-content-between align-items-center" >
+        <input type="text" placeholder="Keywords" /><label for="">
+          <i class="fa-solid fa-magnifying-glass"></i
+        ></label>
+      </form>
+      <div class="menu-galary d-flex justify-content-between my-5 py-3 flex-wrap" >
+        <ul class="menu ps-0 list-unstyled">
+          <li class="py-3"><a href="">Home</a></li>
+          <li class="py-3"><a href="">About</a></li>
+          <li class="py-3"><a href="">Services</a></li>
+        </ul>
+        <div class="gallary col-12 col-lg-5 d-flex justify-content-between flex-wrap" >
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <img src="assets/image/side-menu-gallery1.webp" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <img src="assets/image/side-menu-gallery2.webp" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <img src="assets/image/side-menu-gallery3.webp" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <img src="assets/image/side-menu-gallery4.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="social-media d-flex justify-content-center gap-4">
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </section>
+    <!-- banner sectio start here -->
+    <section class="banner">
+      <div id="result"></div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide d-flex justify-content-center align-items-center flex-wrap-reverse"
+          >
+            <div class="bg-img">
+              <img src="assets/image/banner-1.webp" alt="" />
+            </div>
+            <div class="split-image-container d-flex flex-wrap">
+              <div class="split split1"></div>
+              <div class="split split2"></div>
+              <div class="split split3"></div>
+              <div class="split split4"></div>
+            </div>
+
+            <div class="container d-flex flex-wrap">
+              <div class="left-img col-12 col-lg-6">
+                <div class="back-img">
+                  <img
+                    src="assets/image/chart-banner.webp"
+                    alt=""
+                    class="like"
+                  />
+                  <img
+                    src="assets/image/certified.webp"
+                    alt=""
+                    class="certified"
+                  />
+                </div>
+                <div class="front-img">
+                  <img src="assets/image/banner-hero.webp" alt="" />
+                </div>
+              </div>
+              <div class="right-content col-12 col-lg-6">
+                <div class="merketing-text">marketing consulting's</div>
+                <h1>
+                  <div class="ino">Innovative</div>
+                  <div class="solu">Solutions</div>
+                </h1>
+                <a href="" class="commonbtn d-inline-block mt-5"
+                  >Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide d-flex justify-content-center align-items-center flex-wrap-reverse"
+          >
+            <div class="bg-img">
+              <img src="assets/image/banner-2.webp" alt="" />
+            </div>
+            <div class="split-image-container d-flex flex-wrap">
+              <div class="split split1"></div>
+              <div class="split split2"></div>
+              <div class="split split3"></div>
+              <div class="split split4"></div>
+            </div>
+
+            <div class="container d-flex flex-wrap">
+              <div class="left-img col-12 col-lg-6">
+                <div class="back-img">
+                  <img
+                    src="assets/image/chart-banner.webp"
+                    alt=""
+                    class="like"
+                  />
+                  <img
+                    src="assets/image/certified.webp"
+                    alt=""
+                    class="certified"
+                  />
+                </div>
+                <div class="front-img">
+                  <img src="assets/image/banner-hero.webp" alt="" />
+                </div>
+              </div>
+              <div class="right-content col-12 col-lg-6">
+                <div class="merketing-text">marketing consulting's</div>
+                <h1>
+                  <div class="ino">Innovative</div>
+                  <div class="solu">Solutions</div>
+                </h1>
+
+                <a href="" class="commonbtn d-inline-block mt-5"
+                  >Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <div  class="col-12 brand col-lg-9 d-flex justify-content-center justify-content-lg-between align-items-center mx-auto flex-wrap pb-5 mt-4 mt-lg-0" >
+      <div
+        class="col-12 col-sm-6 col-md-4 col-lg-2 mt-4 mb-3 d-flex justify-content-center mt-lg-0"
+      >
+        <img src="assets/image/volo.webp" alt="" />
+      </div>
+      <div
+        class="col-12 col-sm-6 col-md-4 col-lg-2 mt-4 mb-3 d-flex justify-content-center mt-lg-0"
+      >
+        <img src="assets/image/jubilant.webp" alt="" />
+      </div>
+      <div
+        class="col-12 col-sm-6 col-md-4 col-lg-2 mt-4 mb-3 d-flex justify-content-center mt-lg-0"
+      >
+        <img src="assets/image/agency.webp" alt="" />
+      </div>
+      <div
+        class="col-12 col-sm-6 col-md-4 col-lg-2 mt-4 mb-3 d-flex justify-content-center mt-lg-0"
+      >
+        <img src="assets/image/miu.webp" alt="" />
+      </div>
+      <div
+        class="col-12 col-sm-6 col-md-4 col-lg-2 mt-4 mb-3 d-flex justify-content-center mt-lg-0"
+      >
+        <img src="assets/image/ruby.webp" alt="" />
+      </div>
+    </div>
+
+    <section class="provide py-5">
+      <div class="container d-flex flex-wrap">
+        <div class="provide-left col-12 col-lg-6">
+          <p class="small-title">OUR BEST SERVICES <span></span></p>
+          <h2 class="section-title">We Provide Better Service?</h2>
+          <p class="section-paragraph pb-4">
+            We believe that great design should not be out of reach, so our not
+            be Services are less than half the price of a full-time designer.
+          </p>
+          <div class="number d-flex gap-4 align-items-center flex-wrap">
+            <div class="numberimg">
+              <img src="assets/image/number-img.webp" alt="Work Completed" />
+            </div>
+            <div class="number-content">
+              <h3 class="section-sub-title ms-0">Work Completed</h3>
+              <h4>86900+</h4>
+            </div>
+          </div>
+          <a href="" class="commonbtn d-inline-block mt-4">Get Started </a>
+        </div>
+        <div
+          class="provide-right col-12 col-lg-6 d-flex flex-wrap mt-4 mt-lg-0"
+        >
+          <div class="col-6 col-md-4 px-2 mt-3">
+            <div class="skill">
+              <div class="content">
+                <img src="assets/image/web-design.webp" alt="web-design.webp" />
+                <h5>WEB DESIGN</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 px-2 mt-3">
+            <div class="skill">
+              <div class="content">
+                <img src="assets/image/html.webp" alt="html.webp" />
+                <h5>HTML 5</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 px-2 mt-3">
+            <div class="skill">
+              <div class="content">
+                <img src="assets/image/wordpress.webp" alt="wordpress.webp" />
+                <h5>wordpress</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 px-2 mt-3">
+            <div class="skill">
+              <div class="content">
+                <img src="assets/image/react.webp" alt="react.webp" />
+                <h5>REACT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 px-2 mt-3">
+            <div class="skill">
+              <div class="content">
+                <img src="assets/image/css3.webp" alt="css3.webp" />
+                <h5>CSS 3</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 px-2 mt-3">
+            <div class="skill">
+              <div class="content">
+                <img src="assets/image/javascript.webp" alt="javascript.webp" />
+                <h5>JAVASCRIPT</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- inventory section start here -->
+    <section class="inventory">
+      <div class="container d-flex flex-wrap">
+        <div
+          class="left col-12 col-lg-6 gap-3 d-flex justify-content-between pe-lg-5"
+        >
+          <div class="col-lg-6">
+            <div class="capsul capsul1">
+              <img
+                src="assets/image/inventory-img-1.webp"
+                class="w-100"
+                alt="inventory-img-1"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="capsul">
+              <img
+                src="assets/image/inventory-img-2.webp"
+                class="w-100"
+                alt="inventory-img-2"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="right col-12 col-lg-6 ps-lg-4 py-4 py-lg-0">
+          <p class="small-title">YOUR INVENTORY IS TIME<span></span></p>
+          <h2 class="section-title">Digital Agency Excellence Services.</h2>
+          <p class="section-paragraph">
+            And you spend over half of it on non-core functions like Following
+            up for Payments or Writing Proposals from scratch or sending Manual
+            Updates to your Clients.
+          </p>
+
+          <div class="inventory-services d-flex flex-wrap my-2">
+            <div class="col-md-6 d-flex gap-3 align-items-center my-2">
+              <div class="icon star"><i class="fa-regular fa-star"></i></div>
+              <h3 class="text section-sub-title">No Patchwork Of Apps</h3>
+            </div>
+            <div class="col-md-6 d-flex gap-3 align-items-center my-2">
+              <div class="icon"><i class="fa-regular fa-id-badge"></i></div>
+              <h3 class="text section-sub-title">Complete Visibility</h3>
+            </div>
+            <div class="col-md-6 d-flex gap-3 align-items-center my-2">
+              <div class="icon"><i class="fa-regular fa-face-smile"></i></div>
+              <h3 class="text section-sub-title">Happy Clients</h3>
+            </div>
+            <div class="col-md-6 d-flex gap-3 align-items-center my-2">
+              <div class="icon"><i class="fa-regular fa-circle-check"></i></div>
+              <h3 class="text section-sub-title">Healthier Business</h3>
+            </div>
+          </div>
+          <a href="" class="commonbtn d-inline-block mt-4">Get Started </a>
+        </div>
+      </div>
+    </section>
+    <!-- inventory section end here -->
+    <!-- creative service section start here -->
+    <section class="creative-service">
+      <div class="container text-center py-5">
+        <p class="small-title d-inline-block">
+          WELCOME CREATIVE AGENCY<span></span>
+        </p>
+        <h2 class="section-title">
+          Full Creative Services <br />
+          For You
+        </h2>
+      </div>
+      <div class="container">
+        <div
+          class="service-card service-card-active d-flex flex-wrap flex-lg-nowrap align-items-center mt-3"
+        >
+          <div class="number">01.</div>
+          <div class="entry ps-md-5">
+            <p class="section-paragraph">CUSTOMIZATION</p>
+            <h3 class="section-sub-title">WordPress & Marketing</h3>
+            <div class="badg">CLIENT NAME: ROMAN WILLIMES</div>
+            <div class="badg">VALUE: $145</div>
+          </div>
+          <p class="section-paragraph px-lg-5 paragraph">
+            We believe that great design should not be our download will start
+            automatically in 3 to 5 seconds
+          </p>
+          <div class="rating">
+            <img
+              src="assets/image/google-rating.webp"
+              alt="google-rating.webp"
+            />
+          </div>
+          <div class="right-icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div
+          class="service-card d-flex flex-wrap flex-lg-nowrap align-items-center mt-3"
+        >
+          <div class="number">01.</div>
+          <div class="entry ps-md-5">
+            <p class="section-paragraph">CUSTOMIZATION</p>
+            <h3 class="section-sub-title">WordPress & Marketing</h3>
+            <div class="badg">CLIENT NAME: ROMAN WILLIMES</div>
+            <div class="badg">VALUE: $145</div>
+          </div>
+          <p class="section-paragraph px-lg-5 paragraph">
+            We believe that great design should not be our download will start
+            automatically in 3 to 5 seconds
+          </p>
+          <div class="rating">
+            <img
+              src="assets/image/google-rating.webp"
+              alt="google-rating.webp"
+            />
+          </div>
+          <div class="right-icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div
+          class="service-card d-flex flex-wrap flex-lg-nowrap align-items-center mt-3"
+        >
+          <div class="number">01.</div>
+          <div class="entry ps-md-5">
+            <p class="section-paragraph">CUSTOMIZATION</p>
+            <h3 class="section-sub-title">WordPress & Marketing</h3>
+            <div class="badg">CLIENT NAME: ROMAN WILLIMES</div>
+            <div class="badg">VALUE: $145</div>
+          </div>
+          <p class="section-paragraph px-lg-5 paragraph">
+            We believe that great design should not be our download will start
+            automatically in 3 to 5 seconds
+          </p>
+          <div class="rating">
+            <img
+              src="assets/image/google-rating.webp"
+              alt="google-rating.webp"
+            />
+          </div>
+          <div class="right-icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- creative service section end here -->
+    <!-- portfolio section start here -->
+    <section class="success-project pb-0">
+      <div class="container text-center">
+        <p class="small-title d-inline-block">OUR PROJECTS<span></span></p>
+        <h2 class="section-title">
+          Our Selected <br />
+          Projects
+        </h2>
+      </div>
+      <div class="container-fluid px-0">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-img">
+                <img src="assets/image/slider-1.webp" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="" class="projectbtn">energy & environment</a>
+                <h4 class="section-sub-title">business solutions</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img">
+                <img src="assets/image/slider-2.webp" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="" class="projectbtn">energy & environment</a>
+                <h4 class="section-sub-title">business solutions</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img">
+                <img src="assets/image/slider-3.webp" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="" class="projectbtn">energy & environment</a>
+                <h4 class="section-sub-title">business solutions</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img">
+                <img src="assets/image/inventory-img-1.webp" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="" class="projectbtn">energy & environment</a>
+                <h4 class="section-sub-title">business solutions</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img">
+                <img src="assets/image/inventory-img-2.webp" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="" class="projectbtn">energy & environment</a>
+                <h4 class="section-sub-title">business solutions</h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end here -->
+    <section class="your-inventory">
+      <div class="container d-flex flex-wrap">
+        <div class="left col-lg-4 col-12">
+          <h2 class="section-title">Your Inventory Is Time</h2>
+          <p class="section-paragraph pt-1 pb-3">
+            Since 1985 Reed has pioneered specialist recruitment, sourcing
+            knowledgeable
+          </p>
+          <a href="">Get Started</a>
+        </div>
+        <ul class="right col-lg-8 col-12">
+          <li>
+            <h3 class="big-text">556<span>k</span></h3>
+            <p class="section-paragraph">WORK COMPLETED</p>
+          </li>
+          <li>
+            <h3 class="big-text">256<span>k</span></h3>
+            <p class="section-paragraph">WORK COMPLETED</p>
+          </li>
+          <li>
+            <h3 class="big-text">356<span>k</span></h3>
+            <p class="section-paragraph">WORK COMPLETED</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="driven">
+      <div
+        class="container d-flex align-items-center flex-wrap border-bottom py-5"
+      >
+        <div class="left-img col-12 col-lg-6 pe-lg-5">
+          <img src="assets/image/s3-img-1.webp" class="w-100" alt="" />
+        </div>
+        <div class="right-content col-12 col-lg-6">
+          <h2 class="section-title">Driven By Quality & Dedicated</h2>
+          <p class="section-paragraph mb-5">
+            We believe that great design should not be out of reach, so our
+            services are less than half the price of a full-time designer. n
+            should not be out of reach, so our services are less than half the
+          </p>
+          <a href="" class="commonbtn">Get Started</a>
+        </div>
+      </div>
+      <div class="container d-flex align-items-center flex-wrap py-5">
+        <div class="right-content col-12 col-lg-6">
+          <h2 class="section-title">Make Your BusinessVisible Online</h2>
+          <p class="section-paragraph mb-5">
+            We believe that great design should not be out of reach, so our
+            services are less than half the price of a full-time designer. n
+            should not be out of reach, so our services are less than half the
+          </p>
+          <a href="" class="commonbtn">Get Started</a>
+        </div>
+        <div class="left-img col-12 col-lg-6 ps-lg-5">
+          <img src="assets/image/s3-img-2.webp" class="w-100" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="parent" class="py-5">
+      <div class="container text-center">
+        <p class="small-title d-inline-block"><span></span>OUR BEST PRICES</p>
+        <h2 class="section-title">Plans For Everyone</h2>
+      </div>
+      <div class="menu d-flex justify-content-center flex-wrap">
+        <button class="active">Medium Plans</button>
+        <button class="expensivebtn">Expensive Plans</button>
+        <button>Advance Plans</button>
+      </div>
+      <div class="tabs">
+        <div class="tab active fleet py-3">
+          <div class="container my-4 d-flex flex-wrap">
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$14.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Multi Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$28.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Pro Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$89.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Ultra Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab fleet py-5">
+          <div class="container my-4 d-flex flex-wrap">
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$14.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Multi Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$28.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Pro Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$89.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Ultra Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab fleet py-5">
+          <div class="container my-4 d-flex flex-wrap">
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$14.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Multi Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$28.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Pro Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 px-0 px-lg-3">
+              <div class="price-card">
+                <div class="card-header d-flex gap-3 align-items-center">
+                  <div class="price-circle text-center">
+                    <h3>$89.99</h3>
+                    <p>Monthly</p>
+                  </div>
+                  <div class="plan">
+                    <h3 class="section-sub-title">Ultra Plan</h3>
+                    <p class="section-paragraph">Monthly / Early</p>
+                  </div>
+                </div>
+                <ul class="list my-4">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Full Access Library
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Growth
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Bussiness & Financ
+                    Analysing
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Generation
+                    Technology
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dashboard Analytics
+                  </li>
+                </ul>
+                <a href="" class="commonbtn d-inline-block mb-4">
+                  Get Started</a
+                >
+                <p class="card-footer mt-4">
+                  10% Taxes Will Include After Make Price.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="container-fluid d-flex flex-wrap px-0">
+        <div class="col-12 col-lg-4">
+          <div class="process-card">
+            <div class="card-img">
+              <img src="assets/image/s4-img-1.webp" alt="" />
+            </div>
+            <h2 class="section-sub-title">Strategy & Research.</h2>
+            <p class="py-2">
+              We are 100+ professional software engineers with more than 10
+              years of experience in
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Design Should Srich Our
+                Day
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Visual Design
+                Challenges
+              </li>
+            </ul>
+            <a href="" class="s4-btn mt-30 ml-0">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="process-card two">
+            <div class="card-img">
+              <img src="assets/image/s4-img-1.webp" alt="" />
+            </div>
+            <h2 class="section-sub-title">Strategy & Research.</h2>
+            <p class="py-2">
+              We are 100+ professional software engineers with more than 10
+              years of experience in
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Design Should Srich Our
+                Day
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Visual Design
+                Challenges
+              </li>
+            </ul>
+            <a href="" class="s4-btn mt-30 ml-0">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="process-card three">
+            <div class="card-img">
+              <img src="assets/image/s4-img-1.webp" alt="" />
+            </div>
+            <h2 class="section-sub-title">Strategy & Research.</h2>
+            <p class="py-2">
+              We are 100+ professional software engineers with more than 10
+              years of experience in
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Design Should Srich Our
+                Day
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Visual Design
+                Challenges
+              </li>
+            </ul>
+            <a href="" class="s4-btn">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section start here -->
+    <section class="testimonial">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide d-flex gap-3">
+            <div class="left px-4"><img src="assets/image/qoute.webp" alt=""></div>
+            <div class="right">
+              <p class="">what propel say</p>
+              <h2 class="section-title">
+                When an unknown printer took A galley of type and scrambled it
+                to make a type specimen Book. It has survived not only Five
+                centuries.
+              </h2>
+              <div class="profile d-flex gap-3 align-items-center">
+                <div class="left-img"><img src="assets/image/person.webp" alt=""></div>
+                <div class="name ">
+                  <h3>charli hapan</h3>
+                  <ul class="d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex gap-3">
+            <div class="left px-4"><img src="assets/image/qoute.webp" alt=""></div>
+            <div class="right">
+              <p class="">what propel say</p>
+              <h2 class="section-title">
+                When an unknown printer took A galley of type and scrambled it
+                to make a type specimen Book. It has survived not only Five
+                centuries.
+              </h2>
+              <div class="profile d-flex gap-3 align-items-center">
+                <div class="left-img"><img src="assets/image/person.webp" alt=""></div>
+                <div class="name ">
+                  <h3>charli hapan</h3>
+                  <ul class="d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex gap-3">
+            <div class="left px-4"><img src="assets/image/qoute.webp" alt=""></div>
+            <div class="right">
+              <p class="">what propel say</p>
+              <h2 class="section-title">
+                When an unknown printer took A galley of type and scrambled it
+                to make a type specimen Book. It has survived not only Five
+                centuries.
+              </h2>
+              <div class="profile d-flex gap-3 align-items-center">
+                <div class="left-img"><img src="assets/image/person.webp" alt=""></div>
+                <div class="name ">
+                  <h3>charli hapan</h3>
+                  <ul class="d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"><i class="fa-solid fa-arrow-right-long"></i></div>
+        <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left-long"></i></div>
+      </div>
+    </section>
+    <!-- testimonial section end here -->
+
+    <section class="blog">
+      <div class="container text-center">
+        <p class="small-title d-inline-block ">RECENT BLOG<span></span></p>
+        <h2 class="section-title">Update Journal</h2>
+      </div>
+      <div class="container d-flex flex-wrap mt-4">
+        <div class="col-12 col-lg-4 px-2 px-lg-3">
+          <div class="blog_card">
+            <div class="card_top">
+               <div class="data"><span>05 <br> Jan</span></div>
+               <div class="card_img"><img src="assets/image/blog-img1.webp" alt=""></div>
+               <div class="card_badge">
+                <li><i class="fa-regular fa-user"></i> By choicy</li>
+                <li><i class="fa-regular fa-comment"></i> 0 Comments</li>
+               </div>
+            </div>
+            <div class="card_bottom">
+              <h3>Agency Marketing Four Things To Business</h3>
+              <p>We are 100+ professional software engin than 10 years of experience in deliver</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 px-2 px-lg-3">
+          <div class="blog_card">
+            <div class="card_top">
+               <div class="data"><span>05 <br> Jan</span></div>
+               <div class="card_img"><img src="assets/image/blog-img1.webp" alt=""></div>
+               <div class="card_badge">
+                <li><i class="fa-regular fa-user"></i> By choicy</li>
+                <li><i class="fa-regular fa-comment"></i> 0 Comments</li>
+               </div>
+            </div>
+            <div class="card_bottom">
+              <h3>Agency Marketing Four Things To Business</h3>
+              <p>We are 100+ professional software engin than 10 years of experience in deliver</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 px-2 px-lg-3">
+          <div class="blog_card">
+            <div class="card_top">
+               <div class="data"><span>05 <br> Jan</span></div>
+               <div class="card_img"><img src="assets/image/blog-img1.webp" alt=""></div>
+               <div class="card_badge">
+                <li><i class="fa-regular fa-user"></i> By choicy</li>
+                <li><i class="fa-regular fa-comment"></i> 0 Comments</li>
+               </div>
+            </div>
+            <div class="card_bottom">
+              <h3>Agency Marketing Four Things To Business</h3>
+              <p>We are 100+ professional software engin than 10 years of experience in deliver</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center blog-bottom">
+        <p>Want to see our Recent News & Updates. <a href="">Click here to View More</a></p>
+      </div>
+    </section>
+
+        <!-- footerr start here -->
+        <footer class="pb-4">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+              <div class="col-12 col-md-6 col-lg-4 ps-0  px-lg-3">
+                  <div class="footer-logo">
+                      <img src="assets/image/logo-white.webp" alt="">
+                  </div>
+                  <p class="my-2 my-lg-3">Made using clean, non-toxic ingredients, our products are signed for everyone. Made using clean, non-toxic ingredients, our products are signed</p>
+                   <div class="card_badge d-flex gap-3">
+                    <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+                    <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                   </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-2 footercol  mt-4 mt-md-0">
+                  <ul class="">
+                      <li>
+                          <a href=""><i class="fa-solid fa-arrow-right"></i> Recent Work</a>
+                      </li>
+                      <li>
+                          <a href=""><i class="fa-solid fa-arrow-right"></i> Product Gallery</a>
+                      </li>
+                      <li class=''>
+                          <a href=""><i class="fa-solid fa-arrow-right"></i> About Us</a>
+                      </li>
+                      <li class=''>
+                          <a href=""><i class="fa-solid fa-arrow-right"></i> Product Gallery</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-12 col-md-6 col-lg-2 footercol  mt-4 mt-lg-0">
+                <ul class="">
+                  <li>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> Recent Work</a>
+                  </li>
+                  <li>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> Product Gallery</a>
+                  </li>
+                  <li class=''>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> About Us</a>
+                  </li>
+                  <li class=''>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> Product Gallery</a>
+                  </li>
+              </ul>
+              </div>
+              <div class="col-12 col-md-6 col-lg-2 footercol  mt-4 mt-lg-0">
+                <ul class="">
+                  <li>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> Recent Work</a>
+                  </li>
+                  <li>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> Product Gallery</a>
+                  </li>
+                  <li class=''>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> About Us</a>
+                  </li>
+                  <li class=''>
+                      <a href=""><i class="fa-solid fa-arrow-right"></i> Product Gallery</a>
+                  </li>
+              </ul>
+              </div>
+  
+          </div>
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <form class="search  col-12 col-lg-4 mt-5" >
+              <h3>Newsletter</h3> <br>
+              <input type="text" placeholder="Keywords" class=""/><label for="" class="">Subscribe</label>
+            </form>
+            <div class="menu-galary d-flex justify-content-between my-3 flex-wrap col-12 col-lg-5" >
+              <div class="gallary col-12 d-flex justify-content-between flex-wrap" >
+                <div class="col-12 col-md-6 col-lg-3 p-2">
+                  <img src="assets/image/side-menu-gallery1.webp" class="w-100 rounded-3" alt="" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 p-2">
+                  <img src="assets/image/side-menu-gallery2.webp" class="w-100 rounded-3" alt="" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 p-2">
+                  <img src="assets/image/side-menu-gallery3.webp" class="w-100 rounded-3" alt="" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 p-2">
+                  <img src="assets/image/side-menu-gallery4.webp" class="w-100 rounded-3" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="social-media d-flex justify-content-center gap-4 col-12 col-lg-3">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="container footer-bottom text-center"><p><span>© Copyright 2024.</span> All Rights Reserved</p></div>
+      </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
